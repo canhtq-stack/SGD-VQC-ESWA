@@ -1,0 +1,30 @@
+# SGD-VQC-ESWA — pip requirements
+# Python 3.10 recommended
+# Install: pip install -r requirements.txt
+
+# ── Core scientific stack ──────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Machine learning ───────────────────────────────────────────────────────
+scikit-learn==1.5.1
+
+# ── Imbalanced learning ────────────────────────────────────────────────────
+imbalanced-learn==0.12.3
+
+# ── Gradient boosting ──────────────────────────────────────────────────────
+xgboost==2.1.1
+
+# ── Statistical testing ────────────────────────────────────────────────────
+statsmodels==0.14.3
+
+# ── Quantum computing (Qiskit v1.x) ───────────────────────────────────────
+qiskit==1.2.4
+qiskit-machine-learning==0.8.2
+qiskit-aer==0.15.1
+
+# ── Excel export ───────────────────────────────────────────────────────────
+openpyxl==3.1.5
